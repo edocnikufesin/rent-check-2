@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo-size{
+    width: 100%;
+    max-width: 100px;
+    height:auto;
+}
+
+@media (max-width:768px) {
+    .logo-size {
+        max-width: 40px;
+    }
+}
